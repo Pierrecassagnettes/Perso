@@ -1,0 +1,130 @@
+{
+    "initialization" : {
+        "configuration" : {
+            "vpolar_las_init" : 0.1,
+            "vpolar_ring_init" : 0.1,
+            "temp_stability_diff" : 0.3,
+            "temp_stability_timeout" : 180,
+            "temp_stability_channel" : "INTERPOSER",
+            "tec_setpoint" : 30,
+            "Ilaser_setting" : {
+                "SCINTIL_HAL_LASER_0" : 0.1,
+                "SCINTIL_HAL_LASER_1" : 0.1,
+                "SCINTIL_HAL_LASER_2" : 0.1,
+                "SCINTIL_HAL_LASER_3" : 0.1,
+                "SCINTIL_HAL_LASER_4" : 0.1,
+                "SCINTIL_HAL_LASER_5" : 0.1,
+                "SCINTIL_HAL_LASER_6" : 0.1,
+                "SCINTIL_HAL_LASER_7" : 0.1,
+                "SCINTIL_HAL_LASER_8" : 0.1,
+                "SCINTIL_HAL_LASER_9" : 0.1,
+                "SCINTIL_HAL_LASER_10" : 0.1,
+                "SCINTIL_HAL_LASER_11" : 0.1,
+                "SCINTIL_HAL_LASER_12" : 0.1,
+                "SCINTIL_HAL_LASER_13" : 0.1,
+                "SCINTIL_HAL_LASER_14" : 0.1,
+                "SCINTIL_HAL_LASER_15" : 0.1
+            },
+            "Vmuxheater_Init" : {
+                "SCINTIL_HAL_MUX_HEATER_BO_s31" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s33" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s32" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s34" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s21" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s22" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BO_s11" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s31" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s33" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s32" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s34" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s21" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s22" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AO_s11" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s31" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s33" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s32" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s34" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s21" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s22" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_BE_s11" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s31" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s33" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s32" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s34" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s21" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s22" : 1.125,
+                "SCINTIL_HAL_MUX_HEATER_AE_s11" : 1.125
+            },
+            "Vring_Init" : 1.125
+        },
+        "mux_tuning" : {
+            "Tune_Vstart" : 0.1,
+            "Tune_Vstop" : 2.49,
+            "Tune_Nsteps" : 41
+        },
+        "ring_tuning" : {
+            "coarse_tuning" : {
+                "Tune_Pstart" : 3.66E-02,
+                "Tune_Pstop" : 	1.24E-01,
+                "Tune_Nsteps" : 25
+            },
+            "fine_tuning" : {
+                "Fine_Vstep" : 0.05,
+                "RING_STEP_THRESHOLD" : 0.001,
+                "RING_FINE_TUNING_MAX_TRIES" : 100
+            }
+        },
+        "laser_tuning" : {
+            "dithering" : {
+                "d_amplitude" : {
+                    "SCINTIL_HAL_LASER_0" : 0.006,
+                    "SCINTIL_HAL_LASER_1" : 0.006,
+                    "SCINTIL_HAL_LASER_2" : 0.006,
+                    "SCINTIL_HAL_LASER_3" : 0.006,
+                    "SCINTIL_HAL_LASER_4" : 0.006,
+                    "SCINTIL_HAL_LASER_5" : 0.006,
+                    "SCINTIL_HAL_LASER_6" : 0.006,
+                    "SCINTIL_HAL_LASER_7" : 0.006,
+                    "SCINTIL_HAL_LASER_8" : 0.006,
+                    "SCINTIL_HAL_LASER_9" : 0.006,
+                    "SCINTIL_HAL_LASER_10" : 0.006,
+                    "SCINTIL_HAL_LASER_11" : 0.006,
+                    "SCINTIL_HAL_LASER_12" : 0.006,
+                    "SCINTIL_HAL_LASER_13" : 0.006,
+                    "SCINTIL_HAL_LASER_14" : 0.006,
+                    "SCINTIL_HAL_LASER_15" : 0.006
+                },
+                "d_frequency" : {
+                    "SCINTIL_HAL_LASER_0" : 9765.625,
+                    "SCINTIL_HAL_LASER_1" : 10375.97656,
+                    "SCINTIL_HAL_LASER_2" : 10986.32813,
+                    "SCINTIL_HAL_LASER_3" : 11596.67969,
+                    "SCINTIL_HAL_LASER_4" : 12207.03125,
+                    "SCINTIL_HAL_LASER_5" : 12817.38281,
+                    "SCINTIL_HAL_LASER_6" : 13427.73438,
+                    "SCINTIL_HAL_LASER_7" : 14038.08594,
+                    "SCINTIL_HAL_LASER_8" : 14648.4375,
+                    "SCINTIL_HAL_LASER_9" : 15258.78906,
+                    "SCINTIL_HAL_LASER_10" : 15869.14063,
+                    "SCINTIL_HAL_LASER_11" : 16479.49219,
+                    "SCINTIL_HAL_LASER_12" : 17089.84375,
+                    "SCINTIL_HAL_LASER_13" : 17700.19531,
+                    "SCINTIL_HAL_LASER_14" : 18310.54688,
+                    "SCINTIL_HAL_LASER_15" : 18920.89844
+                }
+            },
+            "coarse_tuning" : {
+                "I_Start" : 0.03,
+                "I_Stop" : 0.1,
+                "I_Step" : 0.003
+            },
+            "fine_tuning" : {
+                "Fine_Istep" : 0.001
+            }
+        }
+    },
+    "servoloop_mux" : {
+        "Servoloop_Vstep" : 0.01,
+        "tab_crit_lock_mux" : 0.05
+    }
+}
